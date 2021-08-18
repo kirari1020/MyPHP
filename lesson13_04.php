@@ -3,8 +3,8 @@
 
   public $name;
 
-  public function __construct() {
-    $this->name = "tanaka";
+  public function __construct() { //コンストラクタ（初期化メソッド）
+    $this->name = "tanaka"; //プロパティ = $name
   }
 
   function avg($math, $english) {
@@ -12,9 +12,9 @@
   }
  }
 
- $a001 = new Student();
+ $a001 = new Student(); //インスタンス = クラス
  $a001->name = "sato";
- echo $a001->name."\n";
+ echo $a001->name."\n"; //メソッド
 
  $a002 = new Student();
  echo $a002->name."\n";
